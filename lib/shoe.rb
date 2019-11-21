@@ -11,6 +11,10 @@ class Shoe
     #   if brand !== BRANDS[index]
     # end
     
+    BRANDS.each do |brand|
+      
+    end
+    
     BRANDS << brand
 
   end
