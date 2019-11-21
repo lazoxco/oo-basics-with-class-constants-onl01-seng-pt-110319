@@ -12,8 +12,9 @@ class Shoe
     # end
     
     BRANDS.each do |brand|
-      
-    end
+      if BRANDS.include?(brand)
+        
+    end 
     
     BRANDS << brand
 
