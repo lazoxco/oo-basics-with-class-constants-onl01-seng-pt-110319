@@ -7,9 +7,9 @@ class Shoe
   def initialize(brand)
     @brand = brand
     
-    BRANDS.collect do |brand|
-      brand !=
-    end
+    # BRANDS.each_with_index do |brand, index|
+    #   if brand !== BRANDS[index]
+    # end
     
     BRANDS << brand
 
