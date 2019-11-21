@@ -7,7 +7,9 @@ class Shoe
   def initialize(brand)
     @brand = brand
     
-    BRANDS.collect 
+    BRANDS.collect do |brand|
+      
+    end
     
     BRANDS << brand
 
