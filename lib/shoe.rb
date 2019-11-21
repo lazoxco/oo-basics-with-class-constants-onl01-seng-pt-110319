@@ -14,9 +14,6 @@ class Shoe
     BRANDS.each do |brand|
       BRANDS << brand if BRANDS.include?(brand) == false
     end 
-    
-    
-
   end
 
   def cobble
