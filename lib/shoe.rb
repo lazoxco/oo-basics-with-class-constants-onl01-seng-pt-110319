@@ -12,7 +12,7 @@ class Shoe
     # end
     
     BRANDS.each do |brand|
-      if BRANDS.include?(brand) == false
+      BRANDS << brand if BRANDS.include?(brand) == false
         
     end 
     
