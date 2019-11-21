@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     
     BRANDS.collect do |brand|
-      
+      brand !=
     end
     
     BRANDS << brand
