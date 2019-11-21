@@ -7,12 +7,10 @@ class Shoe
   def initialize(brand)
     @brand = brand
     
-    # BRANDS.each_with_index do |brand, index|
-    #   if brand !== BRANDS[index]
-    # end
-    
     BRANDS.each do |brand|
-      BRANDS << brand if BRANDS.include?(brand) == false
+      if BRANDS.include?(brand) == false
+        
+      end
     end 
   end
 
